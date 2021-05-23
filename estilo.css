@@ -1,0 +1,37 @@
+div#reiniciar{
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+}
+.game{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgb(187, 63, 63);
+    color: white;
+    border: 0px solid brown;
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.game > div{
+    border: 6px solid brown;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font: 15pt arial;
+    text-align: center;
+    background-color: rgb(13, 110, 253);
+    border-color:  rgb(13, 110, 253);
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 70px;
+    color: white;   
+}
